@@ -7,11 +7,11 @@ $(document).ready(function() {
   $(document).ready(function() {
     $("#blanks form").submit(function(event) {
       var person1Input = $("input#person1").val().toUpperCase();
-      var person2Input = $("input#person2").val();
-      var animalInput= $("input#animal").val();
-      var exclamationInput = $("input#exclamation").val();
-      var verbInput = $("input#verb").val();
-      var nounInput = $("input#noun").val();
+      var person2Input = $("input#person2").val().oUpperCase();
+      var animalInput= $("input#animal").val()oUpperCase();
+      var exclamationInput = $("input#exclamation").val()oUpperCase();
+      var verbInput = $("input#verb").val()oUpperCase();
+      var nounInput = $("input#noun").val()oUpperCase();
 
       $(".person1").text(person1Input);
       $(".person2").text(person2Input);
