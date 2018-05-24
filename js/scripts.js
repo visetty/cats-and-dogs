@@ -6,7 +6,7 @@ $(document).ready(function() {
 
   $(document).ready(function() {
     $("#blanks form").submit(function(event) {
-      var person1Input = $("input#person1").val();
+      var person1Input = $("input#person1").val().toUpperCase();
       var person2Input = $("input#person2").val();
       var animalInput= $("input#animal").val();
       var exclamationInput = $("input#exclamation").val();
@@ -22,6 +22,6 @@ $(document).ready(function() {
 
       $("#story").show();
         event.preventDefault();
-          
+
     });
   });
